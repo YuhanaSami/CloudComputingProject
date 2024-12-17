@@ -1,0 +1,176 @@
+306  cd /
+  307  cd home
+  308  cd administrator
+  309  cd Desktop
+  310  mkdir project
+  311  cd project
+  312  mkdir e_learning_platform
+  313  cd  e_learning_platform
+  314  mkdir January
+  315  mkdir February
+  316  mkdir March
+  317  mkdir April
+  318  mkdir May
+  319  mkdir June
+  320  mkdir July
+  321  mkdir August
+  322  mkdir September
+  323  mkdir October
+  324  mkdir November
+  325  mkdir December
+  326  cd January
+  327  touch course_material_day_1.txt
+  328  touch lesson_plan_day_2.txt
+  329  cd February
+  330  cd ..
+  331  cd February
+  332  touch course_material_day_1.txt
+  333  touch lesson_plan_day_2.txt
+  334  cd ..
+  335  cd March
+  336  touch course_material_day_1.txt
+  337  touch lesson_plan_day_2.txt
+  338  cd ..
+  339  cd April
+  340  touch course_material_day_1.txt
+  341  touch lesson_plan_day_2.txt
+  342  cd ..
+  343  cd May
+  344  touch course_material_day_1.txt
+  345  touch lesson_plan_day_2.txt
+  346  cd ..
+  347  cd June
+  348  touch course_material_day_1.txt
+  349  touch lesson_plan_day_2.txt
+  350  cd ..
+  351  cd July
+  352  touch course_material_day_1.txt
+  353  touch lesson_plan_day_2.txt
+  354  cd ..
+  355  cd August
+  356  touch course_material_day_1.txt
+  357  touch lesson_plan_day_2.txt
+  358  cd ..
+  359  cd September
+  360  touch course_material_day_1.txt
+  361  touch lesson_plan_day_2.txt
+  362  cd ..
+  363  cd October
+  364  touch course_material_day_1.txt
+  365  touch lesson_plan_day_2.txt
+  366  cd ..
+  367  cd November
+  368  touch course_material_day_1.txt
+  369  touch lesson_plan_day_2.txt
+  370  cd ..
+  371  cd December
+  372  touch course_material_day_1.txt
+  373  touch lesson_plan_day_2.txt
+  374  cd ..
+  375  mv /home/administrator/Desktop/project/e_learning_platform/January/course_material_day_1.txt /home/administrator/Desktop/project/e_learning_platform/February
+  376  cd feb
+  377  cd ..
+  378  cd e_learning_platform
+  379  cd February
+  380  mv lesson_plan_day_1.txt updated_lesson_plan_day_1.txt
+  381  cd ..
+  382  cd January
+  383  touch lesson_plan_day_1.txt
+  384  rm lesson_plan_day_1.txt
+  385  touch course_material_day_1.txt
+  386  mv /home/administrator/Desktop/project/e_learning_platform/January/course_material_day_1.txt /home/administrator/Desktop/project/e_learning_platform/February
+  387  cd ..
+  388  cd February
+  389  touch course_material_day_1.txt
+  390  mv lesson_plan_day_1.txt updated_lesson_plan_day_1.txt
+  391  mv lesson_plan_day2.txt updated_lesson_plan_day_1.txt
+  392  mv lesson_plan_day_2.txt updated_lesson_plan_day_1.txt
+  393  touch course_material_day_1.txt
+  394  cd ..
+  395  ls
+  396  cd February
+  397  ls
+  398  cd ..
+  399  ls
+  400  ls al
+  401  ll ls
+  402  ls ll
+  403  ls January
+  404  ls February
+  405  ls March
+  406  ls April
+  407  ls May
+  408  ls June
+  409  ls July
+  410  ls August
+  411  ls September
+  412  ls October
+  413  ls November
+  414  ls December
+  415  touch course_syllabus.txt
+  416  cat > course_syllabus.txt
+  417  chmod 700 course_syllabus.txt
+  418  cat /etc/passwd
+  419  ll course_material_day_1.txt
+  420  ll course_syllabus.txt
+  421  mkdir backup
+  422  cp /home/administrator/Desktop/project/e_learning_platform/February/course_material_day_1.txt /home/administrator/Desktop/project/e_learning_platform/backup
+  423  ls backup
+  424  cd March
+  425  rm lesson_plan_day_1.txt
+  426  rm lesson_plan_day_2.txt
+  427  cd ..
+  428  rm March
+  429  rm -r March
+  430  nano script.sh
+  431  ./script.sh
+  432  chmod 777 script.sh
+  433  ./script.sh
+  434  nano script.sh
+  435* 
+  436  nano script.sh
+  437  ./script.sh
+  438* 
+  439  ./script.sh
+  440  nano script.sh
+  441  ./script.sh
+  442  history
+  443  top
+  444  ps
+  445  ll course_syllabus.txt
+  446  cd ..
+  447  vim v.txt
+  448  cat v.txt
+  449  grep -r course_material_day_1.txt
+  450  cd e_learning_platform
+  451  grep -r "welcome" course_material_day_1.txt
+  452  mkdir student_001
+  453  mkdir instructor_01
+  454  chmod 700 student_001
+  455  ./student_001
+  456  ll student_001
+  457  chmod 700 instructor_01
+  458  ll instructor_01
+  459  nano script1.sh
+  460  ./script1.sh
+  461* 
+  462  chmod 755 script1.sh
+  463  ./script1.sh
+  464  grep "REPLACE" v.txt | wc -l
+  465  cat v.txt
+  466  cd..
+  467  cd ..
+  468  cat v.txt
+  469  grep "REPLACE" v.txt | wc -l
+  470  nano if.sh
+  471  ./if.sh
+  472  chmod 777 if.sh
+  473  ./if.sh
+  474  nano if.sh
+  475  ./if.sh
+  476  nano get.sh
+  477  ./get.sh
+  478  chmod 777 get.sh
+  479  ./get.sh
+  480  history
+
